@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Moiz Khalid - DevOps Engineer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+  <meta name="description" content="Portfolio of Ghazanfar Ali, Software Quality Assurance Engineer specializing in automation testing, manual testing, API testing, and mobile/web app testing." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">Tech Stack .</div>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#story">My Story</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Let's Talk</a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Side Drawer Navigation -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="side-drawer" id="sideDrawer">
+    <div class="drawer-header">
+      <div class="drawer-logo">Ghazanfar Ali</div>
+      <button class="drawer-close" id="drawerClose" aria-label="Close menu">&times;</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="#home" class="drawer-link">Home</a>
+      <a href="#story" class="drawer-link">My Story</a>
+      <a href="#expertise" class="drawer-link">Expertise</a>
+      <a href="#experience" class="drawer-link">Experience</a>
+      <a href="#contact" class="drawer-link">Let's Talk</a>
+    </nav>
+  </aside>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <p class="hero-label">DevOps Engineer</p>
+        <h1 class="hero-name">Moiz Khalid</h1>
+        <h2 class="hero-title">
+          Building scalable,<br />
+          automated & secure<br />
+          cloud infrastructure.
+        </h2>
+        <p class="hero-description">
+           I'm a DevOps Engineer focused on automation, reliability, and performance.
+          I transform development workflows into scalable, secure, and production-ready systems.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Start a Project</a>
+          <a href="CV/Moiz Khalid Resume.pdf" class="btn btn-secondary" download="Ghazanfar_Ali_CV.pdf" id="downloadCV">Download my CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats">
+    <div class="stats-container">
+      <div class="stat-item">
+        <div class="stat-number">2+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">20+</div>
+        <div class="stat-label">Projects Tested</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Uptime Focus</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Story Section -->
+  <section id="story" class="story">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">
+          Every great <span class="highlight">DevOps engineer</span> starts with a strong <span class="highlight">foundation</span>.
+        </h2>
+      </div>
+      <div class="story-content">
+        <div class="story-text">
+          <p>
+            My journey as a DevOps Engineer began with a passion for automation and system reliability.
+            I work at the intersection of development and operations to build efficient delivery pipelines.
+          </p>
+          <p>
+            I specialize in CI/CD automation, containerization, cloud infrastructure, and monitoring.
+            My goal is to reduce downtime, speed up releases, and maintain secure production systems.
+          </p>
+          <p>
+            Think of me as an infrastructure architect—designing resilient systems, automating deployments,
+            and ensuring applications run smoothly in any environment.
+          </p>
+        </div>
+        <div class="story-code">
+          <div class="code-block">
+            <div class="code-header">
+              <span class="code-dot"></span>
+              <span class="code-dot"></span>
+              <span class="code-dot"></span>
+              <span class="code-title">DevOpsEngineer.ts</span>
+            </div>
+            <div class="code-content">
+              <pre><code><span class="code-keyword">const</span> <span class="code-var">MoizKhalid</span> <span class="code-operator">=</span> <span class="code-keyword">await</span> <span class="code-class">DevOpsEngineer</span>.<span class="code-function">create</span>({
+  <span class="code-property">role</span>: <span class="code-string">"DevOps Engineer"</span>,
+  <span class="code-property">expertise</span>: [
+    <span class="code-string">"CI/CD Pipelines"</span>,
+    <span class="code-string">"Docker & Kubernetes"</span>,
+    <span class="code-string">"AWS & Cloud"</span>,
+    <span class="code-string">"Monitoring & Automation"</span>
+  ],
+  <span class="code-property">passion</span>: <span class="code-number">Infinity</span>
+});
+
+<span class="code-comment">// Compiling...</span>
+<span class="code-output">✅ Infrastructure Ready</span></code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Timeline -->
+  <section id="experience" class="experience-section">
+    <div class="section-container">
+      <div class="experience-timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">Present</div>
+          <div class="timeline-content">
+            <h3>DevOps Engineer</h3>
+            <p class="timeline-company">Freelance / Cloud Projects</p>
+            <p>Managing CI/CD pipelines, Dockerized apps, and cloud deployments using Azure and AWS.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">Previous</div>
+          <div class="timeline-content">
+            <h3>QA / Junior DevOps</h3>
+            <p class="timeline-company">Various Companies</p>
+            <p>Built and tested applications, deployed on Azure/AWS, and automated workflows.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">Foundation</div>
+          <div class="timeline-content">
+            <h3>Learning & Development</h3>
+            <p class="timeline-company">Self-Learning</p>
+            <p>Learnt Linux, scripting, cloud basics, and DevOps fundamentals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How I Work Section -->
+  <section class="process">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">
+          Your product. My pipeline.<br />
+          <span class="highlight">Reliable delivery.</span>
+        </h2>
+        <p class="section-subtitle">
+          A DevOps workflow designed for speed, security, and scalability.
+        </p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-number">01</div>
+          <h3>Plan</h3>
+          <p>Understanding architecture and infrastructure needs.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">02</div>
+          <h3>Build</h3>
+          <p>Automating builds and containerizing applications.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">03</div>
+          <h3>Deploy</h3>
+          <p>CI/CD pipelines with zero-downtime deployments.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">04</div>
+          <h3>Monitor</h3>
+          <p>Observability, logging, alerts, and optimization.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expertise Section -->
+  <section id="expertise" class="expertise">
+    <div class="section-container">
+      <div class="expertise-grid">
+        <div class="expertise-card">
+          <div class="expertise-icon">⚙️</div>
+          <h3>CI/CD PIPELINES</h3>
+          <p class="expertise-subtitle">Automation</p>
+          <p>
+            Designing and maintaining CI/CD pipelines using Jenkins, GitHub Actions, and GitLab CI.
+          </p>
+          <div class="expertise-tags">
+            <span>Jenkins</span>
+            <span>GitHub Actions</span>
+            <span>GitLab CI</span>
+          </div>
+          <a href="#contact" class="expertise-link">Start Project →</a>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">🐳</div>
+          <h3>CONTAINERIZATION</h3>
+          <p class="expertise-subtitle">Docker & Kubernetes</p>
+          <p>
+            Containerizing applications and orchestrating workloads with Kubernetes.
+          </p>
+          <div class="expertise-tags">
+            <span>Docker</span>
+            <span>Kubernetes</span>
+            <span>Helm</span>
+          </div>
+          <a href="#contact" class="expertise-link">Start Project →</a>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">☁️</div>
+          <h3>CLOUD INFRASTRUCTURE</h3>
+          <p class="expertise-subtitle">AWS & Azure</p>
+          <p>
+            Deploying scalable infrastructure on AWS with security and performance in mind.
+          </p>
+          <div class="expertise-tags">
+            <span>EC2</span>
+            <span>S3</span>
+            <span>IAM</span>
+            <span>VPC</span>
+          </div>
+          <a href="#contact" class="expertise-link">Start Project →</a>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">📈</div>
+          <h3>MONITORING & LOGGING</h3>
+          <p class="expertise-subtitle">Observability</p>
+          <p>
+            Monitoring systems and applications to ensure uptime and performance.
+          </p>
+          <div class="expertise-tags">
+            <span>Grafana</span>
+            <span>Prometheus</span>
+            <span>CloudWatch</span>
+          </div>
+          <a href="#contact" class="expertise-link">Start Project →</a>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">💻</div>
+          <h3>CLOUD AUTOMATION & SCRIPTING</h3>
+          <p class="expertise-subtitle">IaC & Scripting</p>
+          <p>
+            Automating infrastructure and deployments using Terraform, Bash, and Python scripts.
+          </p>
+          <div class="expertise-tags">
+            <span>Terraform</span>
+            <span>Bash</span>
+            <span>Python</span>
+          </div>
+          <a href="#contact" class="expertise-link">Start Project →</a>
+        </div>
+        <div class="expertise-card">
+          <div class="expertise-icon">☁️</div>
+          <h3>AZURE CLOUD SERVICES</h3>
+          <p class="expertise-subtitle">Microsoft Azure</p>
+          <p>
+            Deploying and managing cloud infrastructure, VMs, and services on Azure.
+          <div class="expertise-tags">
+            <span>Azure VM</span>
+            <span>Azure DevOps</span>
+            <span>Azure Storage</span>
+          </div>
+          <a href="#contact" class="expertise-link">Start Project →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tagline Section -->
+  <section class="tagline">
+    <div class="section-container">
+      <h2 class="tagline-text">
+        AUTOMATE.<br />
+        DEPLOY.<br />
+        SCALE.
+      </h2>
+      <p class="tagline-subtitle">
+        Three words. Infinite pipelines. Every deployment moves systems forward.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="section-container">
+      <div class="contact-header">
+        <h2 class="section-title">Let's build something<br />reliable together.</h2>
+        <p class="contact-subtitle">
+          Ready to automate and scale your infrastructure? I'm available for DevOps projects.
+        </p>
+        <div class="contact-info">
+          <p><strong>Available for freelance work</strong></p>
+          <p>Response time: &lt; 24 hours</p>
+        </div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-details">
+          <div class="contact-item">
+            <strong>Email</strong>
+            <a href="mailto:moizkhalid3067@gmail.com">moizkhalid3067@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <strong>Phone</strong>
+            <a href="tel:+923435527067">+92-3435527067</a>
+          </div>
+          <div class="contact-item">
+            <strong>LinkedIn</strong>
+            <a href="https://www.linkedin.com/in/moiz-khalid-cs" target="_blank" rel="noopener noreferrer">Moiz Khalid</a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div class="form-checkbox">
+            <input type="checkbox" id="privacy" name="privacy" required />
+            <label for="privacy">I agree to the Privacy Policy and consent to the processing of my data.</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-copyright">
+        © <span id="year"></span> All Rights Reserved.<br>
+        <span class="footer-name">Moiz Khalid</span>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Drawer navigation
+    const menuToggle = document.getElementById('menuToggle');
+    const sideDrawer = document.getElementById('sideDrawer');
+    const drawerOverlay = document.getElementById('drawerOverlay');
+    const drawerClose = document.getElementById('drawerClose');
+    const drawerLinks = document.querySelectorAll('.drawer-link');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    function openDrawer() {
+      sideDrawer.classList.add('open');
+      drawerOverlay.classList.add('visible');
+      document.body.style.overflow = 'hidden';
+      menuToggle.classList.add('active');
+    }
+
+    function closeDrawer() {
+      sideDrawer.classList.remove('open');
+      drawerOverlay.classList.remove('visible');
+      document.body.style.overflow = '';
+      menuToggle.classList.remove('active');
+    }
+
+    // Open drawer on hamburger click
+    menuToggle.addEventListener('click', openDrawer);
+    
+    // Close drawer on close button or overlay click
+    drawerClose.addEventListener('click', closeDrawer);
+    drawerOverlay.addEventListener('click', closeDrawer);
+
+    // Smooth scroll function
+    function smoothScrollTo(targetId) {
+      const target = document.querySelector(targetId);
+      if (target) {
+        const offsetTop = target.offsetTop - 80; // Account for fixed navbar
+        window.scrollTo({
+          top: offsetTop,
+          behavior: 'smooth'
+        });
+      }
+    }
+
+    // Handle drawer link clicks
+    drawerLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        closeDrawer();
+        setTimeout(() => {
+          smoothScrollTo(targetId);
+        }, 300); // Wait for drawer to close
+      });
+    });
+
+    // Handle regular nav link clicks
+    navLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        smoothScrollTo(targetId);
+      });
+    });
+
+    // Handle expertise links
+    document.querySelectorAll('.expertise-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        smoothScrollTo(targetId);
+      });
+    });
+
+    // Handle CV download with fallback
+    const downloadCV = document.getElementById('downloadCV');
+    if (downloadCV) {
+      downloadCV.addEventListener('click', function(e) {
+        // Try to fetch the file first
+        fetch(this.href, { method: 'HEAD' })
+          .then(response => {
+            if (!response.ok) {
+              e.preventDefault();
+              alert('CV file is being prepared. Please contact me directly at moizkhalid3067@gmail.com for my resume.');
+            }
+          })
+          .catch(() => {
+            // If fetch fails, allow the download to proceed (browser will handle 404)
+            console.log('CV download initiated');
+          });
+      });
+    }
+
+    // Intersection Observer for scroll animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+
+    // Observe elements for scroll animations
+    document.querySelectorAll('.expertise-card, .timeline-item, .process-step').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
