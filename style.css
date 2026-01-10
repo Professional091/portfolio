@@ -6,16 +6,25 @@
 }
 
 :root {
-  --bg-primary: #0a0a0a;
-  --bg-secondary: #111111;
-  --bg-card: #1a1a1a;
-  --text-primary: #ffffff;
-  --text-secondary: #a0a0a0;
-  --text-muted: #666666;
-  --accent: #3b82f6;
-  --accent-hover: #2563eb;
-  --border: #2a2a2a;
-  --success: #10b981;
+  /* Backgrounds */
+  --bg-primary: #f8fafc;      /* Soft cloud white */
+  --bg-secondary: #e2e8f0;    /* Section separation */
+  --bg-card: #ffffff;        /* Cards */
+
+  /* Text */
+  --text-primary: #0f172a;    /* Strong readable text */
+  --text-secondary: #334155;  /* Sub headings */
+  --text-muted: #64748b;      /* Meta text */
+
+  /* Accent (Cloud Blue) */
+  --accent: #2563eb;          /* Primary actions */
+  --accent-hover: #1d4ed8;    /* Hover */
+
+  /* Borders & Status */
+  --border: #cbd5e1;          /* Soft border */
+  --success: #16a34a;         /* CI/CD success green */
+
+  /* UI */
   --radius: 12px;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -47,7 +56,7 @@ body {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: rgba(10, 10, 10, 0.8);
+  background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border);
   padding: 1rem 0;
@@ -151,7 +160,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 17, 255, 0.7);
   z-index: 1999;
   opacity: 0;
   visibility: hidden;
@@ -569,7 +578,7 @@ body {
 
 .code-block:hover {
   transform: translateX(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px rgba(98, 0, 255, 0.3);
 }
 
 .code-header {
@@ -610,16 +619,16 @@ body {
   line-height: 1.6;
 }
 
-.code-keyword { color: #c792ea; }
-.code-var { color: #82aaff; }
-.code-class { color: #ffcb6b; }
-.code-function { color: #c3e88d; }
-.code-string { color: #c3e88d; }
-.code-number { color: #f78c6c; }
-.code-operator { color: #89ddff; }
-.code-property { color: #82aaff; }
-.code-comment { color: #546e7a; font-style: italic; }
-.code-output { color: #c3e88d; }
+.code-keyword { color: #000000; }
+.code-var { color: #003bb9; }
+.code-class { color: #c17f06; }
+.code-function { color: #77c00a; }
+.code-string { color: #66a508; }
+.code-number { color: #a42a05; }
+.code-operator { color: #077dab; }
+.code-property { color: #063fba; }
+.code-comment { color: #2279a2; font-style: italic; }
+.code-output { color: #76bf08; }
 
 /* Experience Section */
 .experience-section {
