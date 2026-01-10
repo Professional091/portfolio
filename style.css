@@ -251,6 +251,11 @@ body {
 .drawer-link:active {
   color: var(--accent);
 }
+.side-drawer {
+  overflow-y: auto;          /* ✅ allow vertical scroll */
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
 
 /* Hero Section */
 .hero {
@@ -1407,4 +1412,48 @@ body {
   .stats-container {
     gap: 1.5rem;
   }
+}
+/* ===== MOBILE & DRAWER FIXES ===== */
+
+html, body {
+  overflow-x: hidden;
+}
+
+/* Scrollable drawer */
+.side-drawer {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Proper body lock */
+body.drawer-open {
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* Prevent grid overflow */
+@media (max-width: 600px) {
+  .stats-container {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Code block safety */
+.code-block {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.code-content pre {
+  white-space: pre;
+  word-break: normal;
+}
+
+/* Global overflow safety */
+section,
+div,
+nav,
+aside {
+  max-width: 100%;
 }

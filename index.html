@@ -408,18 +408,19 @@
     const navLinks = document.querySelectorAll('.nav-links a');
 
     function openDrawer() {
-      sideDrawer.classList.add('open');
-      drawerOverlay.classList.add('visible');
-      document.body.style.overflow = 'hidden';
-      menuToggle.classList.add('active');
-    }
+  sideDrawer.classList.add('open');
+  drawerOverlay.classList.add('visible');
+  document.body.classList.add('drawer-open');
+  menuToggle.classList.add('active');
+}
 
-    function closeDrawer() {
-      sideDrawer.classList.remove('open');
-      drawerOverlay.classList.remove('visible');
-      document.body.style.overflow = '';
-      menuToggle.classList.remove('active');
-    }
+function closeDrawer() {
+  sideDrawer.classList.remove('open');
+  drawerOverlay.classList.remove('visible');
+  document.body.classList.remove('drawer-open');
+  menuToggle.classList.remove('active');
+}
+
 
     // Open drawer on hamburger click
     menuToggle.addEventListener('click', openDrawer);
